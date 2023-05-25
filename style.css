@@ -18,6 +18,7 @@ body {
     max-width: 700px;
     background-color: white; 
     margin: 0 auto;
+    padding: 0 20px 0 20px;
 }
 .intro{
     text-align: center;
@@ -25,6 +26,9 @@ body {
 header {
     padding-top: 25px;
     padding-bottom: 40px;
+}
+.description {
+    padding-bottom: 10px;
 }
 .recipe-container {
   /* We first create a flex layout context */
