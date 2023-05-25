@@ -8,19 +8,33 @@
     <title>Basic Recipe Website</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <p>
-        Welcome to my Odin Recipes basic website. Please select one of the three recipes to create.
-    </p>
-    <div class="recipie-container">
-        <div class="item">
-            <a href="recipes/lasagne.html"><h3>Lasagne</h3></a>
+    <header>
+        <h1>Odin Recipes</h1>
+        <p class="intro">
+            Welcome to my Odin Recipes basic website. Please select one of the three recipes to create.
+        </p>
+    </header>
+    <div class="recipe-container">
+        <div class="card">
+            <img src="./images/lasagne.jpg" alt="Lasagne" style="width:100%">
+            <div class="container">
+                <a href="recipes/lasagne.html"><h3>Lasagne</h3></a>
+                <p>Description</p>
+            </div>
         </div>
-        <div class="item">
-            <a href="recipes/pizza.html"><h3>Pizza</h3></a>    
+        <div class="card">
+            <img src="./images/burger.jpg" alt="Burger" style="width:100%">
+            <div class="container">
+                <a href="recipes/burger.html"><h3>Burger</h3></a>
+                <p>Description</p>
+            </div>
         </div>
-        <div class="item">
-            <a href="recipes/burger.html"><h3>Burger</h3></a>
+        <div class="card">
+            <img src="./images/pizza.jpeg" alt="Pizza" style="width:100%">
+            <div class="container">
+                <a href="recipes/pizza.html"><h3>Pizza</h3></a>   
+                <p>Description</p>
+            </div>
         </div>
     </div>
 </body>
